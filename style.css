@@ -23,3 +23,11 @@ background-color: #674a22;
 border-radius: 15px;
 border-style:dotted;
 }
+
+.Brief{
+text-align: center;
+font-size: medium;
+font-weight: lighter;
+color: #351E10;
+border-radius: 15px;
+}
