@@ -1,12 +1,13 @@
 
 body{
-    background-color: #795C34;
+    background-color: #76572c;
 }
 
 .Subheading{
 text-align: center;
 font-size: xx-large;
 font-weight: lighter;
+font-family:sketchbook;
 color: #351E10;
 background-color: #674a22;
 border-radius: 15px;
