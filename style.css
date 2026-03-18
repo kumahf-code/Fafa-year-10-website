@@ -3,31 +3,64 @@ body{
     background-color: #76572c;
 }
 
-.Subheading{
+.Heading{
 text-align: center;
 font-size: xx-large;
+font-weight: lighter;
+font-family:babylonica;
+color: #351E10;
+background-color: #674a22;
+border-radius: 15px;
+border-style:ridge;
+border-color: #351E10;
+background-image: linear-gradient(#674a22, #B2967D);
+}
+
+.FirstDiv{
+text-align: center;
+font-size: large;
 font-weight: lighter;
 font-family:sketchbook;
 color: #351E10;
 background-color: #674a22;
+background-image: linear-gradient(#674a22, #B2967D );
 border-radius: 15px;
-border-style:dotted;
+border-style: ridge;
+border-color: #351E10;
 }
 
-.Heading{
-text-align: center;
-font-size: x-large;
-font-weight: lighter;
-color: #351E10;
-background-color: #674a22;
-border-radius: 15px;
-border-style:dotted;
+.Paragraph{
+  font-size: x-large;
+ font-family:sketchbook;
+ font-weight: lighter;
 }
 
-.Brief{
-text-align: center;
-font-size: medium;
-font-weight: lighter;
-color: #351E10;
-border-radius: 15px;
+@font-face {
+    font-family:sketchbook;
+    src: url(SKETCHBO.TTF);
+}
+
+@font-face {
+    font-family:babylonica;
+    src: url(Babylonica-Regular.ttf);
+}
+
+@font-face {
+    font-family: barbie;
+    src: url(BARBJSH_.TTF);
+}
+
+@font-face {
+    font-family: filamental;
+    src: url(Filamental.ttf);
+}
+
+@font-face {
+    font-family: sometimes;
+    src: url(Sometimes.ttf);
+}
+
+@font-face {
+    font-family: anke;
+    src: url(ankecallig-fg.ttf);
 }
