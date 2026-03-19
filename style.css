@@ -1,6 +1,6 @@
 
 body{
-    background-color: #76572c;
+    background-image: url(Lego\ Background\ Cyan.jpg)
 }
 
 .Heading{
@@ -8,12 +8,11 @@ text-align: center;
 font-size: xx-large;
 font-weight: lighter;
 font-family:babylonica;
-color: #351E10;
-background-color: #674a22;
+color: #f7f4d3;
 border-radius: 15px;
 border-style:ridge;
-border-color: #351E10;
-background-image: linear-gradient(#674a22, #B2967D);
+border-color: #103532;
+background-image: linear-gradient(#d4f5f0, #7bbfc6);
 }
 
 .FirstDiv{
@@ -21,18 +20,32 @@ text-align: center;
 font-size: large;
 font-weight: lighter;
 font-family:sketchbook;
-color: #351E10;
-background-color: #674a22;
-background-image: linear-gradient(#674a22, #B2967D );
+color:#ffed48;
+background-image: linear-gradient(#d4f5f0, #7bbfc6 );
 border-radius: 15px;
 border-style: ridge;
-border-color: #351E10;
+border-color: #103532;
 }
 
-.Paragraph{
+.FirstParagraph{
   font-size: x-large;
  font-family:sketchbook;
  font-weight: lighter;
+  color: #ffed48;
+}
+
+.SecondDiv{
+    text-align: center;
+    font-size: xx-large;
+    font-family: barbie;
+    color: #248277;
+}
+
+p{
+    font-family:kindergarten;
+    font-size: larger;
+    text-align: center;
+    color:  #248277
 }
 
 @font-face {
@@ -63,4 +76,9 @@ border-color: #351E10;
 @font-face {
     font-family: anke;
     src: url(ankecallig-fg.ttf);
+}
+
+@font-face {
+    font-family: kindergarten;
+    src: url(kindergarten.ttf);
 }
