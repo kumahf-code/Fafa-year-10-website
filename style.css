@@ -1,6 +1,6 @@
 
 body{
-    background-color: #fdf061;
+    background-color: #1b0808;
 }
 
 .Heading{
@@ -11,8 +11,8 @@ font-family:babylonica;
 color: #f7f4d3;
 border-radius: 15px;
 border-style:ridge;
-border-color: #103532;
-background-image: linear-gradient(#78eac0, #aee9d191);
+border-color: #352110;
+background-image: linear-gradient(#eab178, #e9c6ae91);
 }
 
 .FirstDiv{
@@ -20,19 +20,13 @@ text-align: center;
 font-size: large;
 font-weight: lighter;
 font-family:sketchbook;
-color:#ffed48;
-background-image: linear-gradient(#78eac0, #aee9d191 );
+color:#b8490d;
+background-image: linear-gradient(#eab178, #e9c6ae91 );
 border-radius: 15px;
 border-style: ridge;
-border-color: #103532;
+border-color: #352110;
 }
 
-.FirstParagraph{
-  font-size: x-large;
- font-family:sketchbook;
- font-weight: lighter;
-  color: #ffed48;
-}
 
 .SecondDiv{
     text-align: center;
@@ -44,14 +38,56 @@ border-color: #103532;
 
 
 p{
-    font-family:sketchbook;
-    font-size: x-large;
+    font-family:babylonica;
+    font-size: xx-large;
     text-align: center; 
+    color:#f7f4d3
 }
 
+img{
+    width: 250px;
+    height:120px;
+    align-items:center;
+    border-radius:14px;
+    border-width:100px;
+    border-color: #f7f4d3;
+}
 
+.Credits{
+    font-size: smaller;
+    font-family:sketchbook;
+}
 
+.Kenya{
+    color: #c44c15;
+}
 
+.Vietnam{
+    color: #c27f21;
+}
+
+.CapeVerde{
+    color: #dcd697;
+}
+
+.Laos{
+    color: #8ea569;
+}
+
+.Bolivia{
+    color: #0d91ce;
+}
+
+.HeadingK{
+    color:#c44c15;
+    font-family:babylonica;
+    text-align: center;
+    font-size: xx-large;
+}
+
+a{
+    color: #0d91ce;
+}
 
 
 @font-face {
