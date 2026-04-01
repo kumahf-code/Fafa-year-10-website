@@ -48,9 +48,20 @@ img{
     width: 250px;
     height:120px;
     align-items:center;
-    border-radius:14px;
+        border-radius:14px;
     border-width:100px;
     border-color: #f7f4d3;
+}
+
+.WebpageImg{
+    width: 600px;
+    height:400px;
+}
+
+h3{
+    font-family: filamental;
+    text-align: center;
+    color: #ffffff;
 }
 
 .Credits{
@@ -61,6 +72,7 @@ img{
 .Kenya{
     color: #c44c15;
 }
+
 
 .Vietnam{
     color: #c27f21;
@@ -85,6 +97,33 @@ img{
     font-size: xx-large;
 }
 
+.HeadingV{
+ color:#c27f21;
+    font-family:babylonica;
+    text-align: center;
+    font-size: xx-large;   
+}
+
+.HeadingC{
+  color:#dcd697;
+    font-family:babylonica;
+    text-align: center;
+    font-size: xx-large;      
+}
+
+.HeadingL{
+ color: #8ea569;
+    font-family:babylonica;
+    text-align: center;
+    font-size: xx-large;         
+}
+
+.HeadingB{
+  color: #0d91ce;
+    font-family:babylonica;
+    text-align: center;
+    font-size: xx-large;         
+}
 a{
     color: #0d91ce;
 }
